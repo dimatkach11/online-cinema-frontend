@@ -1,1 +1,1 @@
-export interface Ihome {}
+export interface IHome {}
