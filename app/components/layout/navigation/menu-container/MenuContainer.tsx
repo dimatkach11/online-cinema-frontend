@@ -1,6 +1,7 @@
 import { FC } from 'react'
 
 import Menu from '@/layout/navigation/menu-container/Menu'
+import GenreMenu from '@/layout/navigation/menu-container/genres/GenreMenu'
 import {
 	firstMenu,
 	userMenu,
@@ -11,7 +12,7 @@ const MenuContainer: FC = () => {
 		<div>
 			<Menu menu={firstMenu} />
 
-			{/* genres menu */}
+			<GenreMenu />
 
 			<Menu menu={userMenu} />
 		</div>
