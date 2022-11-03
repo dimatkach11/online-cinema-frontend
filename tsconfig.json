@@ -18,6 +18,7 @@
 		"paths": {
 			"@/ui/*": ["components/ui/*"],
 			"@/screens/*": ["components/screens/*"],
+			"@/layout/*": ["components/layout/*"],
 			"@/components/*": ["components/*"],
 
 			"@/hooks/*": ["hooks/*"],
